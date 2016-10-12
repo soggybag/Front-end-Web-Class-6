@@ -8,7 +8,7 @@
 
 ## Schedule
 
-|   | Time |    | Activity |                                     |
+|   | Time |    | Activity | Description                         |
 |---|------|----|----------|-------------------------------------|
 | 1 | 5 min|  5 | TT       | Getting started on your portfolio   |
 | 2 |40 min| 45 | Work     | Work on your portfolio or other site|
