@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel="stylesheet" href="colors.css">
+    
+    <style>
+        
+        body {
+            font-family: Helvetica;
+            font-size: 20px;
+        }
+           
+        [class*="col-"] {
+            border: 1px solid black;
+        }
+        
+        /* Header title nav */
+        .nav, .nav li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+        }
+        
+        .nav li {
+            display: inline-block;
+        }
+        
+        .header {
+            background-color: #444;
+            color: #ddd;
+        }
+        
+        .title {
+            margin: 0 1em;
+            line-height: 40px;
+            font-size: 20px;
+        }
+        
+        .nav a {
+            line-height: 40px;
+            text-decoration: none;
+        }
+        
+        .nav a:link {
+            color: #fff;
+        }
+        
+        .nav a:hover {
+            color: #f0f;
+        }
+        
+        .nav a:active {
+            color: #fff;
+        }
+        
+        .banner {
+            background-image: url(IMG_0325.jpg);
+            background-size: cover;
+            height: 300px;
+        }
+        
+        
+        /* Image block */
+        .img {
+            overflow: hidden;
+            height: calc(400px - 2em);
+        }
+        
+        .image-detail {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid clearfix">
+        <div class="header clearfix">
+            <div class="col-50">
+                <h1 class="title">Title</h1>
+            </div>
+            <div class="col-50">
+                <ul class="nav">
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">About</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="col-100 banner"></div>
+        
+        
+        
+        
+        <div class="col-33 image-detail">
+            <div class="img">
+                <img src="IMG_0311.jpg">
+            </div>
+            <p>This column is 33% wide.</p>
+        </div>
+        <div class="col-33 image-detail">
+           <div class="img">
+                <img src="IMG_0313.jpg">
+            </div>
+            <p>This column is 33% wide.</p>
+        </div>
+        <div class="col-33 image-detail">
+            <div class="img">
+                <img src="IMG_0314.jpg">
+            </div>
+            <p>This column is 33% wide.</p>
+        </div>
+        
+        
+        
+        
+        <div class="clearfix"></div>
+        
+        
+        
+
+        <div class="col-75 c">
+            <p>This column is 75% wide.</p>
+        </div>
+        <div class="col-25 d">
+            <p>While this column is 25% wide. This is the narrowest column.</p>
+        </div>
+        
+        
+        
+        <div class="clearfix"></div>
+
+       
+       
+        <div class="col-33 h">
+            <p>This column is one third the width of it's container.</p>
+        </div>
+        <div class="col-66 i">
+            <p>This column is two thirds, or 66% wide.</p>
+        </div>
+
+       
+        <div class="clearfix"></div>
+
+       
+        <div class="col-25 j">
+            <p>This column is 25% wide.</p>
+        </div>
+        <div class="col-50 k">
+            <p>This column is 50% wide.</p>
+        </div>
+        <div class="col-25 l">
+            <p>This is 25%.</p>
+        </div>
+    </div>
+</body>
+
+</html>
