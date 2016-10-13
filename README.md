@@ -48,6 +48,7 @@ If you are having trouble getting started follow the sequence from class:
  
 ## Projects Challenges 
 
+Study up and look for ideas to help you with design:
 Read up on grid based design
 http://www.creativebloq.com/design/grid-based-web-design-beginners-guide-9107116
 
@@ -61,7 +62,7 @@ http://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-sche
 http://clrs.cc
 https://designschool.canva.com/blog/website-color-schemes/
 
-
+Post your work to the web. 
 
 
 
