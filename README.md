@@ -2,6 +2,7 @@
 
 ## Objectives 
 
+- Build pages with a grid system
 - Work on your portfolio
 - Solve layout problems
 - Find and solve design issues
