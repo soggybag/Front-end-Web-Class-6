@@ -46,6 +46,22 @@ If you are having trouble getting started follow the sequence from class:
 3. JavaScript - add interactive features with JS
 
  
+## Projects Challenges 
+
+Read up on grid based design
+http://www.creativebloq.com/design/grid-based-web-design-beginners-guide-9107116
+
+Read up on CSS and Typography
+http://learn.shayhowe.com/html-css/working-with-typography/
+https://wdexplorer.com/20-examples-beautiful-css-typography-design/
+http://devinhunt.github.io/typebase.css/
+
+Color Schemes
+http://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-schemes-tools.html
+http://clrs.cc
+https://designschool.canva.com/blog/website-color-schemes/
+
+
 
 
 

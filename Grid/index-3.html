@@ -1,0 +1,109 @@
+<link rel="stylesheet" href="simple-grid.css">
+<link rel="stylesheet" href="colors.css">
+<style>
+    body {
+        font-family: Helvetica;
+        font-size: 18px;
+    }
+    
+    .grid {
+        width: 900px;
+    }
+    
+    [class*="col-"] {
+        padding: 0;
+    }
+    
+    .big-box {
+        height: 600px;
+        position: relative;
+    }
+    
+    .small-box {
+        height: 300px;
+    }
+    
+    .special-text {
+        text-align: center;
+        position: absolute;
+        width: 300px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .special-text > div {
+        margin-bottom: 1em;
+    }
+    
+    .special-text > div:nth-child(1) {
+        font-size: 1.5em;
+    }
+    
+    .special-text > div:nth-child(2) {
+        font-size: 2em;
+    }
+    .special-text > div:nth-child(3) {
+        font-size: 0.75em;
+    }
+</style>
+
+<div class="grid">
+    <div class="col-33">
+        <div class="small-box b"></div>
+        <div class="small-box c"></div>
+    </div>
+    <div class="col-66">
+        <div class="big-box a">
+            <div class="special-text">
+                <div>Small title</div>
+                <div>The Big Title</div>
+                <div>Smallest text details</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col-66">
+        <div class="big-box a">
+            <div class="special-text">
+                <div>Small title</div>
+                <div>The Big Title</div>
+                <div>Smallest text details</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-33">
+        <div class="small-box b"></div>
+        <div class="small-box c"></div>
+    </div>
+    
+    <div class="col-33">
+        <div class="small-box b"></div>
+        <div class="small-box c"></div>
+    </div>
+    <div class="col-66">
+        <div class="big-box a">
+            <div class="special-text">
+                <div>Small title</div>
+                <div>The Big Title</div>
+                <div>Smallest text details</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col-66">
+        <div class="big-box a">
+            <div class="special-text">
+                <div>Small title</div>
+                <div>The Big Title</div>
+                <div>Smallest text details</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-33">
+        <div class="small-box b"></div>
+        <div class="small-box c"></div>
+    </div>
+</div>
