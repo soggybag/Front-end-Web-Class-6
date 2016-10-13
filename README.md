@@ -11,8 +11,9 @@
 |   | Time |    | Activity | Description                         |
 |---|------|----|----------|-------------------------------------|
 | 1 | 5 min|  5 | TT       | Grid Systems in CSS                 |
-| 2 |40 min| 45 | Work     | Work on your portfolio or other site|
-| 3 | 5 min| 50 | TT       | Sketch intro                        |
+| 2 |50 min| 55 | Work     | Work on your portfolio or other site|
+| 3 |10 min| 65 | Beak     | Take a Break                        |
+| 4 |50 min|105 | Work     | Continue working on your portfolio  |
 
 ### 1 - Getting Started on your portfolio 
 
@@ -26,22 +27,25 @@ involve dividing a page into columns with widths in the following ratios:
 - 33%
 - 25%
 
-With a little bit of planning you can write CSS rules to cover all of these. 
+With a little bit of planning you can write CSS rules to cover all of these.
+
+Look at the examples here: [Grid](Grid)
 
 ### 2 - Work 
 
-Work on your portfolio. Start by thinking about layout and planning the structure of your page. 
+Work on your portfolio. 
+Start by thinking about layout and planning the structure of your page. 
 If you are having trouble getting started follow the sequence from class:
 
 1. HTML - mark up your content
+    - Use the appropriate tags
+    - use div tags to block in columns
+    - Add class names to elements
 2. CSS - style your markup
+    - Set the base font styles on the body tag
 3. JavaScript - add interactive features with JS
 
-### 3 - Sketch Intro
-
-...
-
-### 4 - 
+ 
 
 
 
