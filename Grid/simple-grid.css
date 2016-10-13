@@ -7,7 +7,6 @@
 .grid {
     width: 1200px;
     margin: auto;
-    background-color: azure;
 }
 
 .clearfix:after {

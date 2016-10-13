@@ -17,8 +17,9 @@
 
 ### 1 - Getting Started on your portfolio 
 
-CSS Grid systems. Your best design, and most common layout will 
-involve dividing a page into columns with widths in the following ratios:
+CSS Grid systems collect related CSS together for layout. 
+Your best designs, and most common layout will involve dividing a page into 
+columns with widths in the following ratios:
 
 - 100%
 - 75%
@@ -29,7 +30,14 @@ involve dividing a page into columns with widths in the following ratios:
 
 With a little bit of planning you can write CSS rules to cover all of these.
 
-Look at the examples here: [Grid](Grid)
+Look at the examples here: 
+
+- [grid.css](Grid/simple-grid.css)
+- [Grid Examples](Grid)
+
+These examples were built based on the article here: 
+
+[Don’t Overthink It Grids](https://css-tricks.com/dont-overthink-it-grids/)
 
 ### 2 - Work 
 
@@ -45,7 +53,6 @@ If you are having trouble getting started follow the sequence from class:
     - Set the base font styles on the body tag
 3. JavaScript - add interactive features with JS
 
- 
 ## Projects Challenges 
 
 Study up and look for ideas to help you with design:
@@ -63,6 +70,8 @@ http://clrs.cc
 https://designschool.canva.com/blog/website-color-schemes/
 
 Post your work to the web. 
+
+Post a link to your web sites on Slack. 
 
 
 
