@@ -74,6 +74,8 @@ Post your work to the web.
 
 Post a link to your web sites on Slack. 
 
+## Resources 
 
+- [Front End Web Playlist](https://goo.gl/z5fGaR) 
 
 
